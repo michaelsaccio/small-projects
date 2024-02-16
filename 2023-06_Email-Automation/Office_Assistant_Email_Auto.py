@@ -30,7 +30,7 @@ def send_daily_email():
     message.attach(MIMEText(body, "plain"))
 
     # embed the image in the email content
-    image_path = "/Users/ovpri_student/Desktop/all/vscode/dog.jpeg"  # replace with the path to your image file
+    image_path = "/dog.jpeg"  # replace with the path to your image file
     with open(image_path, "rb") as f:
         image = MIMEImage(f.read(), name="image.jpg")
     image.add_header("Content-ID", "<image1>")
