@@ -9,10 +9,10 @@ import fitz  # PyMuPDF
 
 # Input and output directories
 input_dir = 'all_mous_and_memos'
-output_dir = '2024-05-20_search/output_mous_and_memos'
+output_dir = 'output_mous_and_memos'
 
 # Define keywords
-keywords = ['OtP', 'Scholz', 'Phillips', 'Jamie', 'Moffitt', 'Schill', 'Coltrane', 'Gottfredson', 'Berdahl', 'Lariviere', 'Frohnmayer', 'KCASI', 'Knight Campus', 'VPFA', 'HR', 'IS']
+keywords = ['example1', 'example2']
 
 # Function to search for keywords in a text using regular expressions
 def search_keywords_in_text(text):
