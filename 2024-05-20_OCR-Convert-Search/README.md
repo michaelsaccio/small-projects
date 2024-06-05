@@ -1,7 +1,7 @@
 # 2024-05-20_OCR-Convert-Search
 
 ## Overview
-This Python script processes PDF and DOCX files to identify and extract documents containing specific keywords. It performs OCR on non-searchable PDFs, converts DOCX files to text, and searches for the defined keywords.
+This Python script processes PDF and DOCX files to identify and extract documents containing specific keywords. It performs OCR on non-searchable PDFs, converts DOCX files to text, and searches for the defined keywords. It has been used many times to search through thousands of office files spanning over a decade in origin, saving countless manhours and project funds.
 
 ## Features
 - **OCR Conversion**: Converts non-searchable PDFs to text using OCR.
